@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  echo:
+    build: "."
+    container_name: screener_echo
+    restart: unless-stopped
